@@ -1,0 +1,7 @@
+[project]
+name = "llm-analytics-with-tools"
+version = "0.1.0"
+description = "Mini-product with LLM analytics"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
