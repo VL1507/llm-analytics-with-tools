@@ -5,3 +5,6 @@ description = "Mini-product with LLM analytics"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[dependency-groups]
+dev = ["mypy>=1.19.1", "ruff>=0.15.12"]
