@@ -15,7 +15,7 @@ strict_bytes = true
 local_partial_types = true
 warn_unreachable = true
 explicit_package_bases = true
-mypy_path = ["src"]
+mypy_path = ["web_app"]
 python_version = "3.13"
 
 [tool.ruff]
@@ -38,13 +38,13 @@ ignore = [
 ]
 
 [tool.pyrefly]
-search-path = ["src"]
+search-path = ["web_app"]
 python-version = "3.13.0"
 preset = "strict"
 min-severity = "info"
 
 [tool.ty.environment]
-root = ["./src"]
+root = ["./web_app"]
 
 [tool.ty.rules]
 all = "error"
