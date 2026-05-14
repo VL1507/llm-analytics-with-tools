@@ -7,11 +7,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
-dev = [
-    "mypy>=1.19.1",
-    "pyrefly>=1.0.0",
-    "ruff>=0.15.12",
-]
+dev = ["mypy>=1.19.1", "pyrefly>=1.0.0", "ruff>=0.15.12"]
 
 [tool.mypy]
 strict = true
@@ -40,3 +36,9 @@ ignore = [
     "FIX002", # наличие TODO
     "COM812", # конфликт с formatter
 ]
+
+[tool.pyrefly]
+search-path = ["src"]
+python-version = "3.13.0"
+preset = "strict"
+min-severity = "info"
