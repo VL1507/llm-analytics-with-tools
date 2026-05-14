@@ -42,3 +42,9 @@ search-path = ["src"]
 python-version = "3.13.0"
 preset = "strict"
 min-severity = "info"
+
+[tool.ty.environment]
+root = ["./src"]
+
+[tool.ty.rules]
+all = "error"
