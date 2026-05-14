@@ -63,6 +63,8 @@ docker build -t sandbox-image ./sandbox
 docker compose up --build -d
 ```
 
+Сайт будет доступен по <http://localhost/>
+
 ## Дополнительно
 
 > Зачем мне 3 тайп-чекера?
